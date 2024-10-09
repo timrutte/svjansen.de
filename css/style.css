@@ -191,7 +191,7 @@ header a.logo img {
     height: 90px;
     position: fixed;
     z-index: 999;
-    background: #ffcd04;
+    background: #0069b4;
     -webkit-animation-name: animationFade;
     animation-name: animationFade;
     -webkit-animation-duration: 1s;
@@ -205,7 +205,7 @@ header a.logo img {
 /*Navbar Simple*/
 .navbar-simple .navbar-nav .nav-link {
     font-size: 16px;
-    color: #000000;
+    color: #fff;
     text-align: center;
     padding: 0.3rem 1.4rem;
     font-weight: 700;
@@ -266,7 +266,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     position: fixed;
     right: 0;
     top: 0;
-    background: #ffcd04;
+    background: #0069b4;
     z-index: 9999;
     height: 100%;
     -webkit-transform: translate3d(100%, 0, 0);
@@ -340,7 +340,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     content: ' ';
     height: 24px;
     width: 2px;
-    background: #000000;
+    background: #fff;
     top: 5px;
 }
 
@@ -373,7 +373,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     width: 100%;
     display: block;
     margin-left: auto;
-    background: #000000;
+    background: #fff;
     transition: .5s ease;
 }
 
@@ -488,7 +488,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .side-nav .navbar-nav .nav-link {
     display: inline-table;
-    color: #000000;
+    color: #fff;
     padding: 10px 0 10px 0 !important;
     font-size: 1.5rem;
     font-weight: 300;
@@ -500,7 +500,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 .side-nav .navbar-nav .nav-link::after{
     content: "";
     position: absolute;
-    background: #000000;
+    background: #fff;
     display: inline-block;
     width: 0;
     height: 3px;
@@ -525,7 +525,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 16px;
     margin-top: .5rem;
     margin-bottom: 0;
-    color: #000000;
+    color: #fff;
 }
 
 .social-icons-simple{
@@ -549,19 +549,19 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     position: relative;
     z-index: 1;
     overflow: hidden;
-    color: #000000;
+    color: #fff;
     -webkit-transition: background-color .5s ease;
     -o-transition: background-color .5s ease;
     transition: background-color .5s ease;
 }
 
 .social-icons-simple li a:hover{
-    background-color:#000000;
+    background-color:#fff;
 }
 
 .social-icons-simple li.animated-wrap a:hover{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #fff;
+    color: #fff;
 }
 
 @-webkit-keyframes animationFade {
@@ -600,7 +600,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .bg-yellow{
-    background-color: #ffcd04;
+    background-color: #0069b4;
 }
 
 .image-banner{
@@ -620,7 +620,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 72px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: #fff;
 }
 
 .heading-area .heading span{
@@ -632,7 +632,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     width: 80%;
-    color: #000000;
+    color: #fff;
     padding-top: 20px;
     padding-bottom: 15px;
 }
@@ -937,9 +937,9 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .portfolio-sec .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
-    color: #ffcd04;
+    color: #0069b4;
     background: transparent;
-    border-bottom: solid 2px #ffcd04;
+    border-bottom: solid 2px #0069b4;
 }
 
 .portfolio-sec .cbp-l-filters-button .cbp-filter-item,
@@ -958,7 +958,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .portfolio-sec .cbp-l-filters-button .cbp-filter-item:hover {
     color: #000000;
-    border-color: #ffcd04;
+    border-color: #0069b4;
 }
 
 .portfolio-sec .cbp-l-caption-title {
@@ -1063,7 +1063,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-family: 'Roboto', sans-serif;
 }
 
-.pink-and-yellow-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#000000;font-weight: 600;background-color:#ffcd04;border:1px solid transparent;border-radius: 0;}
+.pink-and-yellow-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#000000;font-weight: 600;background-color:#0069b4;border:1px solid transparent;border-radius: 0;}
 .pink-and-yellow-btn:hover{color: #ffffff !important;background-color: #f46110 !important;border: 1px solid transparent;}
 
 /* ===================================
@@ -1072,7 +1072,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .release-text{
     font-size: 13px;
-    color: #000000;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-bottom: 16px;
@@ -1082,14 +1082,14 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 42px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: #fff;
     margin-bottom: 20px;
 }
 
 .release-des{
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: #fff;
     font-weight: 500;
     width: 83%;
     line-height: 1.5rem;
@@ -1106,7 +1106,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: #000000;
+    color: #fff;
 }
 
 .box-text{
@@ -1125,7 +1125,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .release-button:hover{
-    color: #ffcd04;
+    color: #0069b4;
 }
 
 .release-img-heading{
@@ -1310,7 +1310,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
-.pink-and-yellow-1-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#000000;font-weight: 600;background-color:#ffcd04;border:1px solid transparent;border-radius: 0;}
+.pink-and-yellow-1-btn{font-size: 12px;font-family: 'Roboto', sans-serif;padding: 12px 48px;color:#fff;font-weight: 600;background-color:#0069b4;border:1px solid transparent;border-radius: 0;}
 .pink-and-yellow-1-btn:hover{color: #FFFFFF !important;background-color: #f46110 !important;border: 1px solid transparent;}
 
 .contact_btn {
@@ -1371,7 +1371,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 ====================================== */
 
 .bg-overlay{
-    background-color: #ffcd04;
+    background-color: #0069b4;
     height: 450px;
 }
 
@@ -1455,12 +1455,12 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 .standalone-detail .sub-heading{
     margin-bottom: 10px;
     font-size: 16px;
-    color: #f46110;
+    color: #fff;
 }
 
 .standalone-area .sub-heading{
     margin-bottom: 8px;
-    color: #f46110;
+    color: #fff;
 }
 
 .standalone-detail .heading{
@@ -1469,7 +1469,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     font-size: 56px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+    color: #fff;
 
 }
 
@@ -1489,7 +1489,7 @@ header .nav-box-round .navbar-nav .nav-link:hover{
     margin-bottom: 12px;
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
-    color: #000000;
+    color: #fff;
 }
 
 .standalone-area .stand-img-des .para_text{
@@ -1992,7 +1992,7 @@ textarea:focus{
     bottom: 15px;
     right: 15px;
     color: #000000;
-    background-color: #ffcd04;
+    background-color: #0069b4;
     border-radius: 50px;
     z-index: 4;
     width: 40px;
@@ -2047,7 +2047,7 @@ textarea:focus{
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: #ffcd04;
+    background: #0069b4;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: 0.5s;

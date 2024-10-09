@@ -1,1 +1,8 @@
 /*-- Use For Custom Styling --*/
+
+.heading-area > .sub-heading, .heading-area a {
+    color: #fff;
+}
+.heading-area a.button i {
+    border: 1px solid #fff;
+}
