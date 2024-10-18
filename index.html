@@ -4,6 +4,7 @@
     <meta name="viewport" content ="width=device-width, initial-social=1">
     <meta name="author" content="Hubert Jansen">
     <meta name="description" content="">
+    <meta charset="utf-8">
     <title>Hubert Jansen</title>
     <link href="vendor/css/bundle.min.css" rel="stylesheet">
     <link href="vendor/css/LineIcons.min.css" rel="stylesheet">
@@ -14,7 +15,8 @@
     <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-   <link href="css/line-awesome.min.css" rel="stylesheet">
+    <link href="css/line-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body data-spy="scroll"  data-target="#megaone" data-offset="90">
 
@@ -42,21 +44,16 @@
     <nav class="navbar navbar-top-default navbar-expand-lg  nav-box-round navbar-simple nav-line">
         <div class="container">
             <a href="#home" title="Logo" class="logo">
-                <!--Logo Default-->
                 <img src="images/logo.png" alt="logo" class="logo-dark">
             </a>
-
-            <!--Nav Links-->
             <div class="collapse navbar-collapse" id="megaone">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active scroll " href="#home">Home<span></span></a>
-                    <a class="nav-link scroll " href="#about">About Us<span></span></a>
-                    <a class="nav-link scroll " href="#company-portfolio-section">Our Projects<span></span></a>
-                    <a class="nav-link scroll " href="#release">Press Release<span></span></a>
-                    <a class="nav-link scroll " href="#contact">Contact Us<span></span></a>
+                    <a class="nav-link active scroll " href="#leistungen">Leistungen<span></span></a>
+                    <a class="nav-link scroll " href="#termine">Termine<span></span></a>
+                    <a class="nav-link scroll " href="#kosten">Kosten<span></span></a>
+                    <a class="nav-link scroll " href="#kontakt">Kontakt<span></span></a>
                 </div>
             </div>
-            <!--Side Menu Button-->
             <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
                 <span></span>
                 <span></span>
@@ -64,26 +61,24 @@
             </a>
         </div>
     </nav>
-    <!--Side Nav-->
     <div class="side-menu hidden">
         <div class="inner-wrapper">
             <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#home">Home</a>
+                        <a class="nav-link scroll" href="#leistungen">
+                            Leistungen
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#about">About Us</a>
+                        <a class="nav-link scroll" href="#termine">Termine</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#company-portfolio-section">Our Project</a>
+                        <a class="nav-link scroll" href="#kosten">Kosten</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#release">Press Release</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact">Contact Us</a>
+                        <a class="nav-link scroll" href="#kontakt">Kontakt</a>
                     </li>
                 </ul>
             </nav>
@@ -111,14 +106,21 @@
            <!-- Content -->
            <div class="col-12 col-lg-6 d-flex align-items-center text-center text-lg-left">
                <div class="heading-area wow slideInLeft" data-wow-delay=".7s">
-                   <span class="sub-heading text-blue">Property / Builder / Architect</span>
-                   <h4 class="heading">Construction<span class="d-block">Builder.</span></h4>
-                   <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus vel facilisis. </p>
+                   <span class="sub-heading text-blue pb-2">Selbstständig seit 1980</span>
+                   <h1 class="heading" style="color: #fff; font-size: 30px;"><span class="font-weight-normal text-white">Geprüfter anerkannter und öffentlich gestellter</span> <span class="text-capitalize">Bausachverständiger</span> <span class="font-weight-normal text-white">für Feuchte und Wärmeschutz</span></h1>
+                   <ul class="pt-2 text-left">
+                       <li><p>TÜV-zertifizierter Sachverständiger für <b>Schimmelpilzerkennung und –bewertung</b></p></li>
+                       <li><p>Fachberater <b>feuchte Mauern nasse Keller</b></p></li>
+                       <li><p>Fachplaner <b>Innendämmung</b></p></li>
+                       <li><p>Fachplaner <b>elektrische Bauteilerwärmung zur Minimierung von Wärmebrücken</b></p></li>
+                       <li><p>Sachverständiger für <b>dezentrale Wohnraumlüftung</b></p></li>
+                   </ul>
+                   <a href="#about" class="scroll button"><i class="las la-angle-right"></i>Mehr erfahren</a>
                </div>
            </div>
            <div class="col-lg-6">
                <div class="image-banner wow slideInRight" data-wow-delay=".7s">
-                   <img src="images/banner-img.png" alt="">
+                   <img src="images/hubert2.png" alt="">
                </div>
            </div>
        </div>
@@ -126,364 +128,144 @@
 </div>
 <!-- End Banner -->
 
-<!-- Start About -->
-<section class="about-sec" id="about">
+<section class="about-sec" id="leistungen">
 <div class="container">
     <div class="row">
          <div class="col-12">
              <div class="about-area">
                  <h4 class="heading-sub wow fadeInDown" data-wow-delay="1s">
-                     About Our Company
+                     Leistungen
                  </h4>
-                 <h1 class="heading-about wow fadeInUp" data-wow-delay=".9s">
-                     Lorem ipsum dolor sit amet consectetur.
+                 <h1 class="heading-about wow fadeInUp mb-3" data-wow-delay=".9s">
+                     Ihr erfahrener Partner
                  </h1>
+                 <p class="wow fadeInUp" data-wow-delay=".9s">
+                     Seit über vier Jahrzehnten stehe ich meinen Kunden als selbstständiger Handwerksmeister & Bausachverständiger zur Seite. Mit meiner langjährigen Erfahrung garantiere ich höchste Qualität und Zuverlässigkeit in allen meinen Dienstleistungen. Vertrauen Sie auf meine bewährte Kompetenz und mein umfassendes Fachwissen.
+                 </p>
              </div>
-             <div class="image-div">
-                 <img src="images/about-img.png" alt="image">
+             <div class="image-div text-center">
+                 <img src="images/tuev.jpg" alt="image">
              </div>
          </div>
     </div>
 
     <div class="row about padding-top">
-        <div class="col-12 col-lg-4 text-center wow slideInLeft" data-wow-delay=".5s">
+        <div class="col-12 col-lg-4 text-center wow slideInLeft mb-5" data-wow-delay=".5s">
             <div class="about-card">
                 <span>01.</span>
-                <h4 class="about-heading">Initial Design</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading" style="text-align: center">Geprüfter anerkannter und öffentlich bestellter Bausachverständiger für Feuchte- und Wärmeschutz</h4>
+                <p class="text text-justify">Mit meiner Qualifikation als geprüfter und anerkannter Bausachverständiger für Feuchte- und Wärmeschutz stehe ich Ihnen bei Bauproblemen beratend zur Seite. Ich erstelle fundierte Gutachten und biete Lösungen zur Vermeidung von Feuchtigkeitsschäden und zur Optimierung des Wärmeschutzes. So tragen meine Dienstleistungen zur Werterhaltung und Energieeffizienz Ihrer Immobilie bei.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center wow slideInUp" data-wow-delay=".3s">
+        <div class="col-12 col-lg-4 text-center wow slideInDown mb-5" data-wow-delay=".3s">
             <div class="about-card">
                 <span>02.</span>
-                <h4 class="about-heading">Build House</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading" style="text-align: center">TÜV-zertifizierter Sachverständiger für Schimmelpilzerkennung und -bewertung</h4>
+                <p class="text text-justify">Als TÜV-zertifizierter Sachverständiger für Schimmelpilzerkennung und -bewertung untersuche ich Ihre Immobilie auf Schimmelbefall. Ich führe gründliche Analysen durch und erstelle detaillierte Berichte, die Ihnen bei der nachhaltigen Beseitigung von Schimmelproblemen helfen. Durch meine Expertise sorge ich für ein gesundes Raumklima in Ihrem Zuhause.</p>
             </div>
         </div>
-        <div class="col-12 col-lg-4 text-center wow slideInRight" data-wow-delay=".5s">
+        <div class="col-12 col-lg-4 text-center wow slideInRight mb-5" data-wow-delay=".5s">
             <div class="about-card">
                 <span>03.</span>
-                <h4 class="about-heading">Completion</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading" style="text-align: center">Fachberater für feuchte Mauern und nasse Keller</h4>
+                <p class="text text-justify">Feuchte Mauern und nasse Keller sind nicht nur ärgerlich, sondern können auch erhebliche Bauschäden verursachen. Als Fachberater biete ich Ihnen maßgeschneiderte Lösungen zur Trockenlegung und Sanierung an. Mit modernen Techniken und fundiertem Wissen stelle ich die Bausubstanz wieder her und verhindere zukünftige Schäden.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInLeft mb-5" data-wow-delay=".5s">
+            <div class="about-card">
+                <span>04.</span>
+                <h4 class="about-heading" style="text-align: center">Geprüfter anerkannter und öffentlich bestellter Bausachverständiger für Feuchte- und Wärmeschutz</h4>
+                <p class="text text-justify">Mit meiner Qualifikation als geprüfter und anerkannter Bausachverständiger für Feuchte- und Wärmeschutz stehe ich Ihnen bei Bauproblemen beratend zur Seite. Ich erstelle fundierte Gutachten und biete Lösungen zur Vermeidung von Feuchtigkeitsschäden und zur Optimierung des Wärmeschutzes. So tragen meine Dienstleistungen zur Werterhaltung und Energieeffizienz Ihrer Immobilie bei.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInDown mb-5" data-wow-delay=".3s">
+            <div class="about-card">
+                <span>05.</span>
+                <h4 class="about-heading" style="text-align: center">Fachplaner für Innendämmung</h4>
+                <p class="text text-justify">Eine effiziente Innendämmung trägt maßgeblich zur Energieeinsparung und zum Wohnkomfort bei. Als Fachplaner entwickle ich individuelle Dämmkonzepte, die perfekt auf Ihre Bedürfnisse abgestimmt sind. Mit meiner Hilfe reduzieren Sie Heizkosten und verbessern das Raumklima nachhaltig.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInRight mb-5" data-wow-delay=".5s">
+            <div class="about-card">
+                <span>06.</span>
+                <h4 class="about-heading" style="text-align: center">Fachplaner für elektrische Bauteilerwärmung zur Minimierung von Wärmebrücken</h4>
+                <p class="text text-justify">Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten und Bauschäden führen können. Als Fachplaner für elektrische Bauteilerwärmung biete ich innovative Lösungen zur Minimierung dieser Wärmebrücken. Meine Konzepte tragen zur Verbesserung der Energieeffizienz und zum Schutz der Bausubstanz bei.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInLeft mb-5" data-wow-delay=".5s">
+            <div class="about-card">
+                <span>07.</span>
+                <h4 class="about-heading" style="text-align: center">Sachverständiger für Dezentrale Wohnraumlüftung nach DIN 1946-6 </h4>
+                <p class="text text-justify">Eine effiziente Wohnraumlüftung ist entscheidend für ein gesundes Raumklima. Als Sachverständiger für dezentrale Wohnraumlüftung nach DIN 1946-6 erstelle ich maßgeschneiderte Lüftungskonzepte für Ihr Zuhause. Durch gezielte Planung und Umsetzung sorge ich für optimale Luftqualität und Feuchtigkeitsregulierung.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInUp mb-5" data-wow-delay=".3s">
+            <div class="about-card">
+                <span>08.</span>
+                <h4 class="about-heading" style="text-align: center">Fachplaner für Innendämmung</h4>
+                <p class="text text-justify">Eine effiziente Innendämmung trägt maßgeblich zur Energieeinsparung und zum Wohnkomfort bei. Als Fachplaner entwickle ich individuelle Dämmkonzepte, die perfekt auf Ihre Bedürfnisse abgestimmt sind. Mit meiner Hilfe reduzieren Sie Heizkosten und verbessern das Raumklima nachhaltig.</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInRight mb-5" data-wow-delay=".5s">
+            <div class="about-card">
+                <span>09.</span>
+                <h4 class="about-heading" style="text-align: center">Fachplaner für elektrische Bauteilerwärmung zur Minimierung von Wärmebrücken</h4>
+                <p class="text text-justify">Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten und Bauschäden führen können. Als Fachplaner für elektrische Bauteilerwärmung biete ich innovative Lösungen zur Minimierung dieser Wärmebrücken. Meine Konzepte tragen zur Verbesserung der Energieeffizienz und zum Schutz der Bausubstanz bei.</p>
             </div>
         </div>
     </div>
 
 </div>
 </section>
-<!-- End About -->
-
-<!-- Start Reviews Section -->
-<section class="reviews-sec bg-image" id="reviews">
-    <div class="review-overlay"></div>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12">
-                    <div class="review-sub">
-                        People Love Us
-                    </div>
-
-                <div class="review-heading">
-                    Our Happy Clients
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-12  order-1 order-md-2">
-                <div class="testimonial-carousel">
-                    <div class="testimonial-box owl-carousel owl-theme">
-                        <!-- content 1 -->
-                        <div class="review-content">
-                <div class="review-des">
-                    <p>
-                        We have a number of different teams within our agency that specialise in different
-                        areas of business so you can be sure that you receive a generic service and although
-                        we boast years and years of service we can ensure you that is a good thing in this
-                        industry.
-                    </p>
-                </div>
-                <div class="reiview-user">
-                    <p>
-                    John Smith - New York City
-                    </p>
-                    <span class="d-inline-block test-star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </span>
-                        </div>
-                       </div>
-                        <!-- content 2 -->
-                        <div class="review-content">
-                            <div class="review-des">
-                                <p>
-                                    We have a number of different teams within our agency that specialise in different
-                                    areas of business so you can be sure that you receive a generic service and although
-                                    we boast years and years of service we can ensure you that is a good thing in this
-                                    industry.
-                                </p>
-                            </div>
-                            <div class="reiview-user">
-                                <p>
-                                    John Smith - New York City
-                                </p>
-                                <span class="d-inline-block test-star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </span>
-                            </div>
-                        </div>
-                        <!-- content 3 -->
-                        <div class="review-content">
-                            <div class="review-des">
-                                <p>
-                                    We have a number of different teams within our agency that specialise in different
-                                    areas of business so you can be sure that you receive a generic service and although
-                                    we boast years and years of service we can ensure you that is a good thing in this
-                                    industry.
-                                </p>
-                            </div>
-                            <div class="reiview-user">
-                                <p>
-                                    John Smith - New York City
-                                </p>
-                                <span class="d-inline-block test-star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-links-left d-none d-md-block">
-            <a class="customPrevBtn"><i class="las la-angle-left"></i></a>
-        </div>
-        <div class="project-links-right d-none d-md-block">
-            <a class="customNextBtn"><i class="las la-angle-right"></i></a>
-        </div>
-    </div>
-</section>
-<!-- End Reviews Section -->
-
-<!-- Start Portfolio -->
-<section class="portfolio-sec company-portfolio-section" id="company-portfolio-section">
-    <div class="container">
-        <div class="section-heading">
-            <div class="row">
-                <div class="col-lg-6 wow fadeInUp text-center text-lg-left" data-wow-delay="300ms">
-                    <h1 class="heading">Our<span class="d-block">
-                        Amazing Projects </span></h1>
-
-                </div>
-                <!-- Filters -->
-                <div class="col-md-12 pt-4 pt-md-5">
-                    <div id="js-filters-mosaic" class="cbp-l-filters-button wow fadeInUp text-center text-lg-left" data-wow-delay="350ms">
-                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All Projects</div>
-                        <div data-filter=".web" class="cbp-filter-item">Houses</div>
-                        <div data-filter=".logo" class="cbp-filter-item">Building</div>
-                        <div data-filter=".mobile" class="cbp-filter-item">Others</div>
-                    </div>
-                    <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
-                        <!-- Image-1 -->
-                        <div class="cbp-item web logo">
-                            <a href="images/protfolio-1.png" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/protfolio-1.png" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="hover-text">
-                                        <h4 class="p-hover-title">Amazing House</h4>
-                                        <p class="p-hover-des">Awesome Spanish House</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Image-2 -->
-                        <div class="cbp-item print mobile web">
-                            <a href="images/portfolio-2.png" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/portfolio-2.png" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="hover-text">
-                                        <h4 class="p-hover-title">White House</h4>
-                                        <p class="p-hover-des">Awesome Spanish House</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Image-3 -->
-                        <div class="cbp-item print logo development web mobile">
-                            <a href="images/portfolio-3.png" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/portfolio-3.png" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="hover-text">
-                                        <h4 class="p-hover-title">Regency Villa</h4>
-                                        <p class="p-hover-des">Awesome Spanish House</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Image-4 -->
-                        <div class="cbp-item logo development">
-                            <a href="images/portfolio-4.png" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/portfolio-4.png" alt="img">
-                                </div>
-                                <div class="cbp-caption-activeWrap portfolio-hover-effect d-flex align-items-end">
-                                    <div class="portfolio-inner-content">
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                    <div class="hover-text">
-                                        <h4 class="p-hover-title">Creative Design</h4>
-                                        <p class="p-hover-des">Awesome Spanish House</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Button -->
-                    <div id="js-loadMore-lightbox-gallery" class="cbp-l-loadMore-button text-data wow fadeInUp" data-wow-delay="650ms">
-                        <div class="row portfolio-foot-detail text-data-inner">
-                            <div class="col-7 col-lg-4 offset-lg-6 text-left pl-4">
-                                <span class="p-text">We've Completed More Then</span>
-                                <h4 class="p-num">530</h4>
-                                <span class="p-text">Projects for Our amazing Clients</span>
-                            </div>
-                            <div class="col-5 col-lg-2 d-flex justify-content-end align-items-center"><a href="project-detail.html" class="btn pink-and-yellow-btn rounded-pill">VIEW ALL</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Portfolio -->
 
 <!-- Start Press Release -->
-<section class="release-sec bg-yellow" id="release">
+<section class="release-sec bg-yellow" id="termine">
     <div class="container">
         <div class="row">
-            <!-- content -->
-
-            <div class="col-lg-4">
-                <div class="release-area wow slideInLeft" data-wow-delay=".5s">
-                    <h4 class="release-text">
-                        Lorem ipsum is simply dummy
+            <div class="col-12">
+                <div class="about-area">
+                    <h4 class="heading-sub wow fadeInDown" data-wow-delay="1s">
+                        Kosten
                     </h4>
-                    <h1 class="release-heading">
-                        Press Release
+                    <h1 class="heading-about wow fadeInUp mb-3 text-white" style="width: 100%;" data-wow-delay=".9s">
+                        Was kostet ein Baugutachter?
                     </h1>
-                    <h4 class="release-des">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry standard.
-                    </h4>
-                    <a href="standalone.html" class="btn pink-and-orange-btn rounded-pill release_btn">VIEW ALL NEWS</a>
-
+                    <p class="wow fadeInUp text-center text-white" data-wow-delay=".9s">
+                        Die Kosten für einen Baugutachter variieren je nach Art und Umfang der Begutachtung. Faktoren wie die Größe des Objekts, die Komplexität der Untersuchung und der regionale Standort spielen eine Rolle bei der Preisgestaltung.<br>
+                        <br>
+                        Rufen Sie mich an oder senden Sie mir eine Nachricht über das Kontaktformular für Ihren persönlichen, unverbindlichen Kostenvoranschlag.<br>
+                        <br>
+                        Entscheiden Sie danach in Ruhe, ob Sie meine Hilfe in Anspruch nehmen möchten.
+                        <br><br>
+                        <a href="#kontakt" class="scroll button text-white"><i class="las la-angle-right text-white" style="border-color: #fff;"></i>Jetzt Kontakt aufnehmen</a>
+                    </p>
                 </div>
             </div>
-            <!-- release box -->
-
-            <div class="col-lg-4">
-                <div class="release-box wow slideInRight" data-wow-delay=".4s">
-                    <h1 class="box-heading">
-                        New Building Announced
-                    </h1>
-                    <h4 class="box-text">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy.s
-                    </h4>
-                    <a href="standalone.html" class="release-button">Learn More<i class="fas fa-angle-right"></i></a>
-                    <hr>
-                    <div class="release-img">
-                        <img src="images/release-img-1.png" alt="release">
-                        <h2 class="release-img-heading">
-                            Pamela Smith
-                        </h2>
-                        <h1 class="img-date">
-                            November 27, 2020
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- release box -->
-            <div class="col-lg-4">
-                <div class="release-box wow slideInRight" data-wow-delay=".5s">
-                    <h1 class="box-heading">
-                        New Building Announced
-                    </h1>
-                    <h4 class="box-text">
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy.s
-                    </h4>
-                    <a href="standalone.html" class="release-button">Learn More<i class="fas fa-angle-right"></i></a>
-                    <hr>
-                    <div class="release-img">
-                        <img src="images/release-img-2.png" alt="release">
-                        <h2 class="release-img-heading">
-                            John Smith
-                        </h2>
-                        <h1 class="img-date-2">
-                            November 27, 2020
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
 <!-- End Press Release -->
 
 <!-- Start Map -->
-<section class="contact-sec" id="contact">
+<section class="contact-sec" id="kontakt">
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-lg-6 wow slideInLeft" data-wow-delay=".4s">
             <div class="mapouter">
                 <div class="gmap_canvas ">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.9674103770367!2d-111.89998968532109!3d33.31966746342612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2s!4v1573716071790!5m2!1sen!2s" width="600" height="410" style="border:0;"  allowfullscreen=""></iframe>
-                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.1743148726073!2d6.236156477542768!3d51.105243940001245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0abd05312f1d5%3A0xe3b9d3845377f2a!2sIn%20Gerderhahn%208A%2C%2041812%20Erkelenz!5e0!3m2!1sde!2sde!4v1729253392205!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
             </div>
         </div>
 
         <div class=" col-lg-6  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
-
-                    <span class="contact-sub-heading">Lorem ipsum dolor sit amet consectetur</span>
-                    <h4 class="contact-heading">MegaOne Builder</h4>
-                    <p class="contact-address">123 Street New York City , United States Of America.</p>
-                    <ul class="contact-list">
-                        <li><span>Office Telephone:</span> 001 01085379709</li>
-                        <li><span>Mobile:</span> 001 63165370895</li>
-                        <li><span>Email: </span> admin@website.com</li>
-                        <li><span>Inquiries: </span> email@website.com</li>
-                        <li><span>Mon-Fri:</span> 9am to 6pm</li>
-                    </ul>
-
-            </div>
+            <span class="contact-sub-heading">Rufen Sie mich gerne an oder senden Sie mir eine Nachricht.</span>
+            <h4 class="contact-heading">Hubert Jansen</h4>
+            <p class="contact-address">In Gerderhahn 8a, 41812 Erkelenz</p>
+            <ul class="contact-list">
+                <li><span>Telefon:</span> <a href="tel:004915739353187">0049 157 39353187</a></li>
+                <li><span>E-Mail:</span> <a href="mailto:info@svjansen.de">info@svjansen.de</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 </section>
@@ -493,24 +275,21 @@
 <section class="bg-black contact-us-sec" id="contactus">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-3 text-center">
-                <div class="user-img"><a href="#home"><img src="images/contact-img.png" alt="img"></a></div>
-            </div>
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-12">
                 <div class="row">
                     <div class="col-12" id="result"></div>
                     <div class="col-12 col-md-6">
                         <form class="row contact-form row-padding" id="contact-form-data">
                             <div class="col-12">
                                 <input type="text" name="userName" placeholder="Name" class="form-control">
-                                <input type="text" name="userPhone" placeholder="Contact No" class="form-control">
-                                <input type="email" name="userEmail" placeholder="Email" class="form-control">
+                                <input type="text" name="userPhone" placeholder="Telefon" class="form-control">
+                                <input type="email" name="userEmail" placeholder="E-Mail" class="form-control">
                             </div>
                         </form>
                     </div>
                     <div class="col-12 col-md-6 contact-form">
-                        <textarea class="form-control" name="userMessage" rows="6" placeholder="Type Your Message Here"></textarea>
-                        <a href="javascript:void(0);" class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font">Lets Get In Touch</a>
+                        <textarea class="form-control" name="userMessage" rows="6" placeholder="Ihre Nachricht..."></textarea>
+                        <a href="javascript:void(0);" class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font">Abschicken</a>
                     </div>
                 </div>
             </div>
@@ -520,21 +299,11 @@
 <!-- END CONTACT -->
 
 <!--Footer Start-->
-<footer class="footer-sec text-center">
+<footer class="footer-sec text-center mt-3">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="footer-social">
-                    <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <p class="company-about fadeIn">&copy; 2023 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
+                <p class="company-about fadeIn">Impressum: Herr Hubert Jansen, In Gerderhahn 8a, 41812 Erkelenz, Deutschland, Tel.: 0049 157 39353187, E-Mail: info@svjansen.de</p>
             </div>
         </div>
     </div>

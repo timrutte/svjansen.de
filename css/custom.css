@@ -6,3 +6,32 @@
 .heading-area a.button i {
     border: 1px solid #fff;
 }
+
+@media (min-width: 500px) {
+    header a.logo img {
+        max-width: 460px;
+        vertical-align: sub;
+    }
+}
+
+.heading-area ul li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.heading-area ul li {
+    position: relative;
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.heading-area ul li p {
+
+    padding-left: 1em; /* Einzug für die gesamte Zeile */
+}

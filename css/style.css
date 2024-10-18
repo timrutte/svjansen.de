@@ -170,7 +170,7 @@ a.image{
 ====================================== */
 
 header a.logo img {
-    max-width: 130px;
+    max-width: 250px;
     vertical-align: sub;
 }
 
@@ -653,12 +653,12 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .button:hover {
-    color: #000000;
+    color: #f46110;
 }
 
 .button:hover i {
-    background: #000000;
-    color: #FFFFFF;
+    color: #f46110;
+    border-color: #fff;
     transition: .5s ease;
 }
 
@@ -1991,7 +1991,7 @@ textarea:focus{
     cursor: pointer;
     bottom: 15px;
     right: 15px;
-    color: #000000;
+    color: #fff;
     background-color: #0069b4;
     border-radius: 50px;
     z-index: 4;
@@ -2057,7 +2057,7 @@ textarea:focus{
 }
 
 .go-top:hover, .go-top:focus {
-    color: #000000;
+    color: #fff;
 }
 
 .go-top:hover::before, .go-top:focus::before {
