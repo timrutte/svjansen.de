@@ -762,11 +762,11 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 
 .about .about-card:hover span{
     transform: translateY(-15px);
-    color: #f46110;
+    color: #000;
 }
 
 .about .about-card:hover .about-heading{
-    color: #f46110;
+    color: #000;
 }
 
 /* ===================================
