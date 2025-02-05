@@ -233,29 +233,29 @@ header a.logo img {
 }
 
 .nav-box-round .navbar-nav .nav-link.active{
-    color: #f46110;
+    color: #fff;
 }
 
 header .nav-box-round .navbar-nav .nav-link.active span{
     width: 100%;
-    background-color: #f46110;
+    background-color: #fff;
 }
 
 header .nav-box-round .navbar-nav .nav-link:hover{
-    color: #f46110;
+    color: #fff;
 }
 
 .header-appear.nav-box-round .navbar-nav .nav-link.active{
-    color: #f46110;
+    color: #fff;
 }
 
 .header-appear .nav-box-round .navbar-nav .nav-link.active span{
     width: 100%;
-    background-color: #f46110;
+    background-color: #fff;
 }
 
 .header-appear .nav-box-round .navbar-nav .nav-link:hover{
-    color: #f46110;
+    color: #fff;
 }
 
 /* ===================================
