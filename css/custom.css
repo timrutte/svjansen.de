@@ -32,6 +32,39 @@
 }
 
 .heading-area ul li p {
-
     padding-left: 1em; /* Einzug für die gesamte Zeile */
+}
+
+.bg-yellow {
+    background-image: url('../images/bg.png');
+    background-repeat: repeat-x;
+}
+
+.logo {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#banner {
+    padding-top: 150px;
+}
+
+.heading-area .heading span {
+    color: #fff;
+}
+
+.heading-area, .nav-link, #termine {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+@media screen and (max-width: 575.98px){
+    #banner {
+        padding-top: 10px;
+    }
+
+    .logo {
+        font-size: 38px;
+    }
 }
