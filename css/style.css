@@ -604,9 +604,9 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 }
 
 .image-banner{
-    width: 90%;
+    width: 96%;
     position: relative;
-    top: 0px;
+    bottom: 1px;
 }
 
 .heading-area .sub-heading{
