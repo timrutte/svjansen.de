@@ -43,7 +43,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-expand-lg  nav-box-round navbar-simple nav-line">
         <div class="container">
-            <a href="#home" title="Logo" class="logo">
+            <a href="#home" title="Hubert Jansen" class="logo">
                 Hubert Jansen
             </a>
             <div class="collapse navbar-collapse" id="megaone">
@@ -272,22 +272,22 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12">
-                <div class="row">
-                    <div class="col-12" id="result"></div>
-                    <div class="col-12 col-md-6">
-                        <form class="row contact-form row-padding" id="contact-form-data">
+                <form id="contact-form-data"  action="https://formspree.io/f/manqdqge" method="POST">
+                    <div class="row contact-form row-padding">
+                        <div class="col-12" id="result"></div>
+                        <div class="col-12 col-md-6">
                             <div class="col-12">
-                                <input type="text" name="userName" placeholder="Name" class="form-control">
-                                <input type="text" name="userPhone" placeholder="Telefon" class="form-control">
-                                <input type="email" name="userEmail" placeholder="E-Mail" class="form-control">
+                                <input type="text" name="name" placeholder="Name" class="form-control">
+                                <input type="text" name="phone" placeholder="Telefon" class="form-control">
+                                <input type="email" name="email" placeholder="E-Mail" class="form-control">
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-12 col-md-6 contact-form">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Ihre Nachricht..."></textarea>
+                            <button class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font" type="submit">Send</button>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 contact-form">
-                        <textarea class="form-control" name="userMessage" rows="6" placeholder="Ihre Nachricht..."></textarea>
-                        <a href="javascript:void(0);" class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font">Abschicken</a>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
